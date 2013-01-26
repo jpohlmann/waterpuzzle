@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+html {
+	width: 100%;
+}
+body {
+   background-image: url("../images/assistant.jpg");
+   background-position: right bottom;
+   background-repeat: no-repeat;
+}
+#instructions{
+	color: FFF;
+	margin-left: 4px;
+	font-size: 12px;
+}
+#bucketContainers {
+    height: 600px;
+	position: relative;
+	width: 80%;
+	left: 300px;
+}
+#bucketForm {
+	width: 200px;
+	height: 90%;
+	float: left;
+	background-color: 447BD4;
+}
+.bFormField {
+	display: block;
+	color: FFFFFF;
+	padding-left: 4px;
+}
+.bucketValue {
+    border-bottom: thick solid; 
+    border-left: thick solid; 
+    border-right: thick solid; 
+    width: 200px; 
+	position: absolute;
+	bottom: 35px;
+}
+.bucketRow {
+	width: 100%;
+}
+#title {
+	color: 052D6E;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+}
+.bucketText {
+    width: 200px; 
+	position: absolute;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	bottom: 5px;
+}
+.bucketSpace {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-color: 104BA9;
+	position: absolute;
+}
+#emailSection {
+	visibility: hidden;
+	color: #FFF;
+	padding-left: 4px;
+}
+#errorSpan{
+	color: #FFF;
+	padding-left: 4px;
+}
