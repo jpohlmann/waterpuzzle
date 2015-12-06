@@ -21,6 +21,15 @@ class ValidationTest extends BucketTest
         $validator = new Validator($smallBucket, $bigBucket, $target);
         $validator->validate();
     }
+    
+    /**
+    * Add a failing test
+    * @test
+    */
+    public function testFailing()
+    {
+    	$this->assertFalse(true);
+   }
     /**
      * Tests that all valid values make it through the validator
      *
