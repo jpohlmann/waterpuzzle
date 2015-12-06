@@ -28,7 +28,7 @@ class ValidationTest extends BucketTest
     */
     public function testFailing()
     {
-    	$this->assertFalse(false);
+    	$this->assertFalse(true);
    }
     /**
      * Tests that all valid values make it through the validator
